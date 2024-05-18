@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: "Sans";
+    src: url('./Sans-Neue-Font/Stawix\ -\ SoinSansNeue-Bold.otf');
+    font-weight: 600;
+
+}
+body{
+   background-color:#FFF2F3;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 13px;
+}
+nav{
+    background-color: #FFFAFA;
+}
+.narb{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 170px;;
+}
+.narb1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 170px;
+} 
+.nar{
+    color: #FB7D64;
+    padding-top: 10px;
+}
+.nab{
+    color: #FB7D64;
+
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+
+}
+.log{
+    margin-left: 50px;
+    background-color: white;
+    border: none;
+    color: #FB7D64;
+    border-radius: 5px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: small;
+}
+.log1{
+    margin-left: 50px;
+    background-color: white;
+    border: none;
+    color: #FB7D64;
+    border-radius: 5px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: small;
+}
+.get{
+    background-color: #FB7D64;
+    color: #FFFAFA;
+    border-radius: 4px;
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: small;
+}
+.get1{
+    background-color: #FB7D64;
+    color: #FFFAFA;
+    border-radius: 4px;
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: small;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 180px;
+}
+.send{
+    margin-top: 130px;
+}
+.sen{
+    color: #FB7D64;
+    font-family: "Sans", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    line-height: 10px;
+    letter-spacing: -p1x;
+    font-size: 300px;
+}
+.sen1{
+    color: #FB7D64;
+    font-family: "Sans", sans-serif;
+    width: 100px;
+}
+.now{
+    line-height: 5px;
+}
+.try{
+    margin-left: 20px;
+    border: none;
+    background-color: #FFF2F3;
+    font-size: small;
+}
+.our{
+    display: flex;
+    align-items: center;
+}
+.ico{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 40px;
+}
+.dow{
+    background-color: #FFFAFA;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+    padding-block: 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.num{
+    line-height: 2px;
+    margin-top: 10px;
+}
+.veri{
+    text-align: center;
+    margin-top: 50px;
+    color: #9e8989;
+}
+.visc{
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #CCB8B8 !important;
+}
+.exchange{
+    width: 900px;
+    height: 400px;
+    background-color: #FB7D64;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-block: 50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.cal{
+    color: white;
+    line-height: 5px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.exad{
+    margin-bottom: 30px;
+}
+.hang{
+    background-color: white;
+    height: 230px;
+    width: 475px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.noy{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.noy1{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+
+}
+.noy h3{
+    line-height: 3px;
+}
+.noy1 h3{
+    line-height: 3px;
+}
+.ima{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.ima1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.yon{
+    margin-bottom: 30px;
+    line-height: 2px;
+}
+.gab{
+    margin-top: 10px;
+}
+hr{
+    color: #CCB8B8;
+    width: 410px;
+    margin-left: 25px;
+
+}
+.rate{
+    margin-left: 30px;
+    font-size: small;
+}
+.mon{
+    background-color: black;
+    color: white;
+    width: 480px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    margin-left: 200px;
+    margin-block: 150px;
+}
+.abou{
+    width: 400px;
+    margin-top: 50px;
+}
+.play{
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+.feat{
+    background-color: #F3ECEC;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fea{
+    margin-left:180px ;
+    padding-block: 70px;
+
+}
+.dot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFEBEC;
+    width: 400px;
+    padding-inline: 20px;
+    font-size: xx-small;
+    border-radius: 12px;
+    line-height: 17px;
+
+}
+.dot2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFEBEC;
+    width: 400px;
+    padding-inline: 20px;
+    font-size: xx-small;
+    border-radius: 12px;
+    line-height: 17px;
+    margin-left: 50px;
+
+}
+.dot4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFEBEC;
+    width: 400px;
+    padding-inline: 20px;
+    font-size: xx-small;
+    border-radius: 12px;
+    line-height: 17px;
+    margin-left: 50px;
+
+}
+.bes{
+    margin-top: 15px;
+    color: black;
+}
+.deg{
+    margin-block: 60px;
+    margin-right: 180px;
+}
+.ava{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: xx-small; 
+}
+.what{
+    text-align: center;
+    padding-top: 80px;
+}
+.wat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 380px;
+    margin-left: 100px;
+}
+.wat1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 390px;
+    margin-left: 150px;
+}
+.wat2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 390px;
+    margin-left: 150px;
+}
+
+.smi0{
+    margin-bottom: 33px;
+}
+.smi{
+    margin-bottom: 35px;
+}
+.smi1{
+    margin-bottom: 30px;
+}
+.smi2{
+    margin-bottom: 18px;
+}
+.smil{
+    margin-block: 100px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-left: 80px;
+}
+.dagi{
+    margin-bottom: 50px;
+}
+.dagis{
+    margin-bottom: 50px;
+}
+.degef{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    background-color: #FB7D64;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.degef{
+    padding: 10px;
+    margin-right: 500px;
+}
+.wit{
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.dags{
+    display: none;
+}
+.nab1{
+    display: none;
+}
+.barn{
+    display: none;
+}
+.nabs{
+    display: none;
+}
+.nars{
+    display: none;
+}
+.sm-nav{
+    display: none;
+}
+.brans{
+    display: none;
+}
+.nabi{
+    display: none;
+}
+.sen1{
+    display: none;
+}
+.pag1{
+    display: none;
+}
+.lay{
+    display: none;
+}
+
+
+/* @media only screen and (max-width: 900px){
+    body {
+        background-color: aqua;
+    }
+    .link{
+        display: none;
+    }
+    .narb{
+        display: none;
+    }
+    .nabs{
+        display: inline;
+    }
+} */
+
+@media only screen and (max-width: 950px){
+    .link{
+        display: none;
+    }
+    .narb{
+        display: none;
+    }
+    .nabs{
+        display: inline;
+    }
+   
+    .dag{
+        padding-left: -100px !important;
+        margin-left: 100px !important;
+    }
+    .brans{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        gap: 10px;
+    }
+    .nars{
+        display: block;
+    }
+    .dag{
+        display: none;
+    }
+    .dags{
+        display: inline;
+        margin-top: 20px;
+    }
+    .sm-nav{
+        display: block;
+        margin-right: 50px;
+    }
+    .send{
+        margin-left: -80px !important;
+        margin-top: 40px;
+    }
+    .nabi{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 50px;
+    }
+    .sen{
+        width: 400px;
+    }
+    .visc{
+        margin-left: 120px !important;
+    } 
+    .about{
+        flex-wrap: wrap;
+        margin-left: 60px !important;
+    }
+    .feat{
+        flex-wrap: wrap;
+        background-color: #F3ECEC;
+        margin-left: -130px !important;
+    }
+    .deg{
+        margin-left: 200px !important;
+    }
+    .smil{
+        flex-wrap: wrap;
+        margin-left: -70px !important;
+    }
+    .dagi{
+        margin-left: 150px !important;
+        margin-top: -120px ;
+        margin-bottom: -20px ;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .degef{
+        margin-left: 450px !important;
+    }
+    .exchange{
+        display: inline-block;
+        margin-left: 70px !important;
+        width: 750px;
+        height: 550px;
+    }
+    .hang{
+        width: 700px;
+        margin-left: 20px;
+        margin-top: -70px !important;
+    }
+    .cal{
+        margin-top: 20px ;
+    }
+    hr{
+        width: 650px !important;
+    }
+    .mon{
+        width: 700px;
+    }
+    .noy{
+        gap: 480px;
+    }
+    .noy1{
+        gap: 480px;
+    }
+    .ima1{
+        margin-right: -50px !important;
+    }
+    .about{
+        margin-top: 20px ;
+    }
+    .abou{
+        margin-top: 10px ;
+    }
+    .feat{
+        margin-top: -70px ;
+    }
+    .smil{
+        margin-top: 50px ;
+    }
+    .try{
+        display: inline;
+    }
+    .sen1{
+        display: none;
+
+    }
+    .pag1{
+        display: none;
+    }
+    .lay{
+        display: none;
+    }
+        
+} 
+
+@media only screen and (max-width: 850px){
+    .link{
+        display: none;
+    }
+    .clat{
+        display: inline-block !important;
+        flex-wrap: wrap;
+    }
+    .narb{
+        display: none;
+    }
+    .nabs{
+        display: inline;
+    }
+    .brans{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        gap: 10px;
+    }
+    .nars{
+        display: block;
+    }
+    .dag{
+        display: none;
+    }
+    .dags{
+        display: inline;
+        margin-top: 20px;
+    }
+    .sm-nav{
+        display: block;
+        margin-right: 50px;
+    }
+    .send{
+        margin-left: -80px !important;
+        margin-top: 40px;
+    }
+    .nabi{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 50px;
+    }
+    .sen{
+        width: 400px;
+    }
+    .visc{
+        margin-left: 120px !important;
+    } 
+    .about{
+        flex-wrap: wrap;
+        margin-left: 60px !important;
+    }
+    .feat{
+        flex-wrap: wrap;
+        background-color: #F3ECEC;
+        margin-left: -130px !important;
+    }
+    .deg{
+        margin-left: 200px !important;
+    }
+    .smil{
+        flex-wrap: wrap;
+        margin-left: -70px !important;
+    }
+    .dagi{
+        margin-left: 150px !important;
+        margin-top: -120px ;
+        margin-bottom: -20px ;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .degef{
+        margin-left: 450px !important;
+    }
+    .exchange{
+        display: inline-block;
+        margin-left: 50px !important;
+        width: 450px;
+        height: 550px;
+    }
+    .hang{
+        width: 400px;
+        margin-left: 20px;
+        margin-top: -70px !important;
+    }
+    .cal{
+        margin-top: 20px ;
+    }
+    hr{
+        width: 350px !important;
+    }
+    .mon{
+        width: 400px;
+    }
+    .noy{
+        gap: 180px;
+    }
+    .noy1{
+        gap: 180px;
+    }
+    .ima1{
+        margin-right: -50px !important;
+    }
+    .about{
+        margin-top: 20px ;
+    }
+    .abou{
+        margin-top: 10px ;
+    }
+    .feat{
+        margin-top: -70px ;
+    }
+    .smil{
+        margin-top: 50px ;
+    }
+    .try{
+        display: inline;
+    }
+    .sen1{
+        display: none;
+
+    }
+    .pag1{
+        display: none;
+    }
+    .lay{
+        display: none;
+    }
+
+   
+        
+}
+ @media only screen and (max-width: 450px){
+    .sen1{
+        display:inline !important;
+    }
+    .sen{
+        display: none;
+    }
+    .now{
+        width: 400px;
+    }
+    .send{
+        margin-left: -130px !important;
+    }
+    .dags{
+        margin-left: -45px;
+        width: -100px !important;
+    }
+    .visc{
+        margin-left: 60px !important;
+    }
+    .exchange{
+        margin-left: -5px !important;
+        width: 397px;
+    }
+    .hang{
+        width: 360px;
+    }
+    .noy{
+        gap: 120px;
+    }
+    .noy1{
+        gap: 120px;
+    }
+    .mon{
+        width: 360px;
+    }
+    .pag{
+        display: none;
+    }
+    .pag1{
+        display: block;
+        margin-left: 10px;
+    }
+    .play{
+        display: none;
+    }
+    .about p{
+        margin-right: 50px;
+        margin-left: -40px;
+        font-size: large;
+        width: 350px;
+    }
+    .bua{
+        margin-left: -40px;
+    }
+    .dot{
+        margin-left: -40px;
+        width: 330px;
+        font-size: xx-small;
+    }
+    .dot2{
+        margin-left: -5px;
+        width: 330px;
+        font-size: xx-small;
+    }
+    .dot4{
+        margin-left: -5px;
+        width: 330px;
+        font-size: xx-small;
+    }
+    .ava{
+        margin-left: -30px;
+    }
+    .lap{
+        display: none;
+    }
+    .lay{
+        display: flex;
+        justify-content: space-between ;
+    }
+    .deg{
+        margin-left: 160px !important;
+    }
+    .dagi{
+        margin-left: 50px !important;
+    }
+    .wat{
+        margin-left: 100px !important;
+        width: 350px;
+    }
+    .wat1{
+        margin-left: 100px !important;
+        width: 350px;
+    }
+    .wat2{
+        margin-left: 100px !important;
+        width: 350px;
+    }
+    .clat{
+        flex-wrap: wrap;
+    }
+} 
+
+@media only screen and (max-width: 360px){
+    .sen1{
+        margin-left: -10px !important;
+    }
+    .send{
+        margin-left: -150px !important;
+    }
+    .dag{
+        display: none;
+    }
+    
+    .dags{
+        width: 250px !important;
+    }
+    .exchange{
+        width: 360px;
+        margin-left: 1px !important;
+    }
+    .hang{
+        width: 330px;
+        margin-left: 15px !important;
+    }
+    .mon{
+        width: 330px;
+    }
+    .noy{
+        gap: 100px;
+    }
+    .noy1{
+        gap: 100px;
+    }
+    .about {
+        font-size: large;
+        width: 200px;
+    }
+    .about p{
+        width: 300px;
+    }
+    .pag1{
+        width: 300px;
+        margin-left: -10px;
+    }
+    .nabi{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 20px;
+    }
+    .lay{
+        margin-left: -20px;
+        display: flex;
+        gap: 10px !important;
+    }
+    .ava p {
+        margin-left: -15px !important;
+    }
+    .pla{
+        margin-left: 10px !important;
+    }
+    .deg{
+        margin-left: 0px;
+    }
+    .dagis{
+        margin-left: -30px !important;
+    }
+    .dagi{
+        margin-left: 25px !important;
+    }
+    .dot{
+        margin-left: -40px;
+        width: 300px;
+        font-size: xx-small;
+    }
+    .dot2{
+        margin-left: -5px;
+        width: 300px;
+        font-size: xx-small;
+    }
+    .dot4{
+        margin-left: -5px;
+        width: 300px;
+        font-size: xx-small;
+    }
+
+}
+
+
