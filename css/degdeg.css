@@ -827,7 +827,7 @@ footer{
         flex-wrap: wrap;
     }
     .degef{
-        margin: 0 auto;
+        margin-left: 450px !important;
     }
 } 
 
