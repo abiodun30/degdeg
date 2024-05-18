@@ -826,6 +826,9 @@ footer{
     .clat{
         flex-wrap: wrap;
     }
+    .degef{
+        margin: 0 auto;
+    }
 } 
 
 @media only screen and (max-width: 360px){
